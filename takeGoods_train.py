@@ -7,7 +7,7 @@ import Tkinter
 # your Serial port should be different!
 arduinoData = serial.Serial('/dev/cu.usbmodem14111', 9600)
 
-cam = cv2.VideoCapture(1)
+cam = cv2.VideoCapture(0)
 
 cv2.namedWindow("Capture")
 
@@ -27,8 +27,8 @@ while True:
     elif k%256 == 32:
         # SPACE pressed
         timestr = time.strftime("%Y%m%d-%H%M%S")
-        img_name = "train/color/good/" + timestr + "GoodBur.png".format(img_counter)
-        img_name_gray = "train/gray/good/" + timestr + "GrayGoodBur.png".format(img_counter)
+        img_name = "Bur_images/train/color/good/" + timestr + "GoodBur.png".format(img_counter)
+        img_name_gray = "Bur_images/train/gray/good/" + timestr + "GrayGoodBur.png".format(img_counter)
         cv2.imwrite(img_name, frame)
         gray_image = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         cv2.imwrite(img_name_gray,gray_image)
