@@ -24,7 +24,7 @@ BurSupport - files to print bur support
 
 Gira_arduino_01 - Arduino code to control step motor
 
-Bur_images - original images (not on compressed files) https://drive.google.com/drive/folders/1JY9eO1cXBGfJYF6189Lu0gUTW_dxxH6G?usp=sharing
+Bur_images - original images https://drive.google.com/drive/folders/1JY9eO1cXBGfJYF6189Lu0gUTW_dxxH6G?usp=sharing
 
 
 
