@@ -5,7 +5,8 @@ Diamond bur image classification
 
 README.md - this file
 
-CapstoneReport_Rev01.pdf - Capstone Report
+CapstoneReport_Rev02.pdf - Capstone Report
+CapstoneReport_Rev01.pdf - Outdated Capstone Report
 
 BursClass_app_5.ipynb - CNN algorithm
 
