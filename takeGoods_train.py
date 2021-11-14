@@ -4,6 +4,7 @@ import cv2
 import time
 import serial # you need to install the pySerial :pyserial.sourceforge.net
 import Tkinter
+
 # your Serial port should be different!
 arduinoData = serial.Serial('/dev/cu.usbmodem14111', 9600)
 
